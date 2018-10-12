@@ -1,10 +1,9 @@
 # images
-*.jpg filter=lfs -text
-*.png filter=lfs -text
-
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
 # models
-*.h5 filter=lfs -text
-*.data filter=lfs -text
-
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
 # logs
-events.out.* filter=lfs -text
+events.out.* filter=lfs diff=lfs merge=lfs -text
+*.iso filter=lfs diff=lfs merge=lfs -text
