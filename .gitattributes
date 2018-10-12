@@ -5,7 +5,6 @@
 # models
 *.h5 filter=lfs -text
 *.data filter=lfs -text
-*.data filter=lfs -text
 
 # logs
-events.out.* 
+events.out.* filter=lfs -text
